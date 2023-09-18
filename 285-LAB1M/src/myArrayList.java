@@ -2,7 +2,7 @@
  * CLASS myArrayList
  * Create custom arraylist objects with a default initial size of 50 and a growth rate of 20%
  * 
- * @author Ben Sweeney,Jere Parisic, Abby Pitcairn, Esther Mugish
+ * @author Ben Sweeney, Jere Perisic, Abby Pitcairn, Esther Mugish
  * 
  * @version 20230917
  * 
