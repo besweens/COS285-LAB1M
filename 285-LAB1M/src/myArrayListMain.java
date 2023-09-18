@@ -15,7 +15,10 @@ public class myArrayListMain {
 //			fractionArray[i] = new Fraction(i, i+1);
 		
 		System.out.println("Lab 1M - Custom Array Lists");
-		
+		testAdd(null, 1,2);
+		testRemove(null, 2,3);
+		testContains(null, 3, 4);
+		System.out.println("\n*****END OF TESTS*****");
 	}
 	
 	//=============TESTS================================================//
@@ -23,10 +26,9 @@ public class myArrayListMain {
 
 	/* testAdd
 	 * Test that .add() actually
+	 * @param testArr Input array to test the add method
 	 * @param inNumA Desired Fraction A numerator
 	 * @param inDenA Desired Fraction A denominator
-	 * @param inNumB Desired Fraction B numerator
-	 * @param inDenB Desired Fraction B denominator
 	 */
 	public static void testAdd(myArrayList[] testArr, int inNumA, int inDenA) {
 		int testNumA = inNumA;
@@ -42,10 +44,9 @@ public class myArrayListMain {
 	
 	/* testRemove
 	 * Test that .remove() actually
+	 * @param testArr Input array to test the remove method
 	 * @param inNumA Desired Fraction A numerator
 	 * @param inDenA Desired Fraction A denominator
-	 * @param inNumB Desired Fraction B numerator
-	 * @param inDenB Desired Fraction B denominator
 	 */
 	public static void testRemove(myArrayList[] testArr, int inNumA, int inDenA) {
 		int testNumA = inNumA;
@@ -61,10 +62,9 @@ public class myArrayListMain {
 	
 	/* testContains
 	 * Test that .contains() actually
+	 * @param testArr Input array to test the contains method
 	 * @param inNumA Desired Fraction A numerator
 	 * @param inDenA Desired Fraction A denominator
-	 * @param inNumB Desired Fraction B numerator
-	 * @param inDenB Desired Fraction B denominator
 	 */
 	public static void testContains(myArrayList[] testArr, int inNumA, int inDenA) {
 		int testNumA = inNumA;
