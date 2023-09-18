@@ -8,7 +8,7 @@
  * 
  */
 
-public class myArrayList {
+public class myArrayList<T extends Fraction> {
 
 	
 	/*************Functional Methods**************/
